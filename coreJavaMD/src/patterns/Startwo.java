@@ -1,6 +1,6 @@
 package patterns;
 
-public class startwo {
+public class Startwo {
 	
 	public static void main(String[] args) {
 		

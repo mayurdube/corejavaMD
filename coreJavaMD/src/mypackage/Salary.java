@@ -1,7 +1,7 @@
 package mypackage;
 import java.util.Scanner;
 
-public class salary {
+public class Salary {
 	
 	public void bonus(){
 		int oldEmp = 50000;

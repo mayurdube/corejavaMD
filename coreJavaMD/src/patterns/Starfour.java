@@ -1,6 +1,6 @@
 package patterns;
 
-public class starfour {
+public class Starfour {
 
 	public static void main(String[] args) {
 		//Here i is row , j is columns for space , k is columns for *

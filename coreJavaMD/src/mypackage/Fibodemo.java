@@ -1,7 +1,7 @@
 package mypackage;
 import java.util.Scanner;
 
-public class fibodemo {
+public class Fibodemo {
 
 	public static void main(String[] args) {
 		

@@ -1,11 +1,9 @@
 package mypackage;
 import java.util.Scanner;
 
-
-public class marks {
+public class SwitchMarks {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int sub1, sub2, sub3,sub4, sub5;
 		Scanner marks = new Scanner(System.in);
@@ -27,6 +25,7 @@ public class marks {
 		int per = total/5 ;
 		System.out.println("student get " +per+" percentages");
 		
+		/*
 		if(per >= 90) {System.out.println("GRADE A");
 		}else if (per >= 80) {System.out.println("GRADE B");
 		}else if (per >=70) {System.out.println("GRADE C");
@@ -34,6 +33,9 @@ public class marks {
 		}else if (per >= 40) {System.out.println("GRADE E");
 		}else {System.out.println("GRADE F");
 		}
+		*/
+		
+		
 		
 		
 		

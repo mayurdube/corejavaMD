@@ -1,6 +1,6 @@
 package patterns;
 
-public class starfive {
+public class Starfive {
 
 	public static void main(String[] args) {
 		int i,j,k;

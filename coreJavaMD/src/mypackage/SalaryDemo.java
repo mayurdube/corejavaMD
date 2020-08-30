@@ -1,11 +1,11 @@
 package mypackage;
 
-public class salaryDemo {
+public class SalaryDemo {
 
 	public static void main(String[] args) {
 		
 		
-		salary object = new salary();
+		Salary object = new Salary();
 		object.bonus();
 		
 

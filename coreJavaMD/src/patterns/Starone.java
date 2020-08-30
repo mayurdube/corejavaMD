@@ -1,6 +1,6 @@
 package patterns;
 
-public class starone {
+public class Starone {
 
 	public static void main(String[] args) {
 		// Here i is columns & j is row
