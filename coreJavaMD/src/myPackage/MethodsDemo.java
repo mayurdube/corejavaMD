@@ -36,8 +36,7 @@ public class MethodsDemo {
 		
 		
 		
-//		
-//		object.subtract(20, 10);
+
 		
 		
 		

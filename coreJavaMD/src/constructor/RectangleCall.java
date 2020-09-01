@@ -1,9 +1,10 @@
 package constructor;
 
-public class constructor {
+public class RectangleCall {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Rectangle ob = new Rectangle();
 
 	}
 

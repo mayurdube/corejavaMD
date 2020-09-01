@@ -14,12 +14,11 @@ public class Salary {
 			 int bonusSal = oldEmp + 17500;
 			 System.out.println("Salary with diwali bonus of 35 % is " +bonusSal);
 			 
-		 }else {
+		 }else 
+		 	{
 			 int bonusSal = newEmp + 4500;
 			 System.out.println("Salary with diwali bonus of 15% is " +bonusSal);
-			 
-			 
-		 }
+			 }
 		
 		
 		
