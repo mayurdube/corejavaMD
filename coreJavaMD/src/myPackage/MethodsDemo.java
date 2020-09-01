@@ -1,4 +1,4 @@
-package mypackage;
+package myPackage;
 import java.util.Scanner;
 
 public class MethodsDemo {
