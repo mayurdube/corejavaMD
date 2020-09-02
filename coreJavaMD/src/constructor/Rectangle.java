@@ -9,7 +9,8 @@ public class Rectangle {
 	}
 	
 	void display() {
-		System.out.println(area);
+		area();
+		System.out.println("area of the rectangle is "+area);
 	}
 
 	

@@ -12,6 +12,8 @@ public class Employee {
 		this.salary = salary1 ;
 		System.out.println("salary of the employee is "+salary);
 	}
+	    
+	 
 	
 	
 	

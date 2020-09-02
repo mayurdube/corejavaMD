@@ -7,7 +7,9 @@ public class EmployeeData {
 	{
 		 
 		
-		Employee ob = new Employ
+		Employee ob = new Employee();
+		Employee ob1 = new Employee(50000);
+		
 		
 		
 		
