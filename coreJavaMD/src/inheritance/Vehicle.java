@@ -1,4 +1,5 @@
 package inheritance;
+import java.util.Scanner;
 
 public class Vehicle {
 /*
@@ -23,6 +24,24 @@ v)	Create an object for the class Bike and test it.
 	String vehicleName, serviceStationName;
 	int vehicleModelNumber, vehiclePrice;
 	 
+	
+	Scanner ob = new Scanner(System.in);
+	public void input() {
+		System.out.println("what is the name of vehicle :");
+		vehicleName = ob.next();
+		
+		System.out.println("service station name :");
+		serviceStationName = ob.next();
+		
+		System.out.println("model no of vehicle");
+		vehicleModelNumber = ob.nextInt();
+		
+		System.out.println("price of vehicle");
+		vehiclePrice = ob.nextInt();
+		
+	}
+	
+	 
 	public Vehicle() { //constructor
 		
 	}
@@ -31,7 +50,7 @@ v)	Create an object for the class Bike and test it.
 		System.out.println("the name of the vehicle is :" +vehicleName);
 		System.out.println("vehicle model number is :" +vehicleModelNumber);
 		System.out.println("Service station of this vehicle is :"+serviceStationName);
-		System.out.println("the price of the ehicle is :" + vehiclePrice);
+		System.out.println("the price of the vehicle is :" + vehiclePrice);
 	}
 	
 	

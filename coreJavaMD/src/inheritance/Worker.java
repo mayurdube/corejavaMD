@@ -18,8 +18,30 @@ public class Worker {
 	String address;
 	int salary;
 	
-	void displaySalary() {
+	Scanner info = new Scanner(System.in);
+	
+	public void input() {
+		System.out.println("enter your name :");
+		name = info.next();
 		
+		System.out.println("whats your age ?");
+		age =info.nextInt();
+		
+		System.out.println("enter your contact number :");
+		phoneNumber = info.nextLong();
+		
+		System.out.println("enter your address :");
+		address = info.next();
+		
+		System.out.println("enter your salary :");
+		salary = info.nextInt();
+	}
+	
+	void displaySalary() {
+		System.out.println("name of the worker is :"+name);
+		System.out.println("address of the worker is :"+address);
+		System.out.println("age of the worker is :"+age);
+		System.out.println("contact no of the worker is :"+phoneNumber);
 		System.out.println("Workers Salary is :" + salary);
 		
 		 
